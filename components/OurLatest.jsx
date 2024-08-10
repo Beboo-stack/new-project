@@ -43,7 +43,7 @@ const OurLatest = () => {
           Hills Construction has a well-established reputation for tackling
           sophisticated and diversified projects. From sprawling residential or
           commercial developments to cutting-edge industrial facilities, our
-          extensive experience ensures we're well-equipped for any challenge.
+          extensive experience ensures we are well-equipped for any challenge.
         </p>
       </div>
       <h2 className="text-3xl font-bold sm:text-2xl mb-8 text-center text-white">
