@@ -42,7 +42,7 @@ const Form = () => {
       const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY;
 
       const templateParams = {
-        to_name: "johnathan",
+        to_name: "Peter",
         From_Name: formData.name,
         Phone: formData.phone,
         Email: formData.email,
@@ -105,7 +105,7 @@ const Form = () => {
                     minLength={3}
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full rounded-lg border-gray-200 border p-3 text-lg text-black bg-transparent"
+                    className="w-full rounded-lg border-gray-200 border p-3 text-lg text-white bg-transparent"
                     placeholder="Full Name"
                     type="text"
                     id="name"
@@ -122,7 +122,7 @@ const Form = () => {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full rounded-lg border-gray-200 border p-3 text-lg text-black bg-transparent"
+                      className="w-full rounded-lg border-gray-200 border p-3 text-lg text-white bg-transparent"
                       placeholder="Email address"
                       type="email"
                       id="email"
@@ -140,7 +140,7 @@ const Form = () => {
                       value={formData.phone}
                       onChange={handleChange}
                       title="000-000-0000"
-                      className="w-full rounded-lg border-gray-200 border p-3 text-lg text-black  bg-transparent"
+                      className="w-full rounded-lg border-gray-200 border p-3 text-lg text-white  bg-transparent"
                       placeholder="Phone Number"
                       type="tel"
                       id="phone"

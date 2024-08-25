@@ -40,10 +40,10 @@ const AboutUs = () => {
               </p>
 
               <Link
-                href="#"
+                href="/about-us"
                 className="mt-8 inline-block rounded bg-[#e9ad64] px-12 py-3 text-sm font-medium text-white transition hover:bg-[#e9ad64]/70 focus:outline-none focus:ring focus:ring-yellow-400"
               >
-                Get Started Today
+                Learn More
               </Link>
             </div>
           </div>
